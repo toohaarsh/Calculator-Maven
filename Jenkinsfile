@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        GIT_URL = 'https://github.com/YOUR_USERNAME/Calculator-Maven.git'
+        GIT_URL = 'https://github.com/toohaarsh/Calculator-Maven'
         BRANCH_NAME = 'main'
     }
 
