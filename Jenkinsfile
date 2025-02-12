@@ -21,21 +21,21 @@ pipeline {
         stage('Clean') {
             steps {
                 echo 'Cleaning the project...'
-                sh 'mvn clean'
+                bat 'mvn clean'
             }
         }
 
         stage('Compile') {
             steps {
                 echo 'Compiling the project...'
-                sh 'mvn compile'
+                bat 'mvn compile'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
